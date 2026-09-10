@@ -62,7 +62,7 @@ export type Unidade = {
   id: string;
   nome: string;
   uf: string;
-  classificacao?: string;
+  classificacao?: string | undefined;
   statusGeral: StatusGeral;
   documentos: Partial<Record<DocumentoId, Documento>>;
 };
@@ -77,11 +77,32 @@ export type PendenciaCritica = {
   impacto: string;
 };
 
-/** Aguardando importação da planilha Excel. */
-export const unidades: Unidade[] = [];
+import unidadesJson from "@/data/unidades.json";
+import pendenciasJson from "@/data/pendencias.json";
+/**
+ * Mapa de arquivos por unidade: { "<unidadeId>": { "<documentoId>": "url" } }.
+ * Preenchido ao subir os PDFs; habilita o botão "Visualizar documento".
+ */
+import arquivosJson from "@/data/arquivos.json";
 
-/** Aguardando importação da planilha Excel. */
-export const pendenciasCriticas: PendenciaCritica[] = [];
+const arquivos = arquivosJson as Record<string, Partial<Record<DocumentoId, string>>>;
+
+/** Unidades importadas da planilha Excel. */
+export const unidades: Unidade[] = (unidadesJson as unknown as Unidade[]).map((u) => ({
+  ...u,
+  classificacao: u.classificacao ?? undefined,
+  documentos: Object.fromEntries(
+    Object.entries(u.documentos).map(([id, doc]) => [
+      id,
+      { ...doc, arquivoUrl: arquivos[u.id]?.[id as DocumentoId] ?? doc?.arquivoUrl },
+    ]),
+  ) as Unidade["documentos"],
+}));
+
+/** Pendências críticas importadas da planilha Excel. */
+export const pendenciasCriticas: PendenciaCritica[] =
+  pendenciasJson as unknown as PendenciaCritica[];
+
 
 export const ufs = [
   "AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB",

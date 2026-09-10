@@ -1,0 +1,7646 @@
+[
+ {
+  "id": "acailandia-pe",
+  "nome": "Açailandia",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "ananindeua-pa",
+  "nome": "Ananindeua",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "abatetuba-pa",
+  "nome": "Abatetuba",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "acoverde-pe",
+  "nome": "Acoverde",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "alagoinhas-ba",
+  "nome": "Alagoinhas",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "altamira-pa",
+  "nome": "Altamira",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "anapolis-go",
+  "nome": "Anápolis",
+  "uf": "GO",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "aquiraz-ce",
+  "nome": "Aquiraz",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "aracaju-se",
+  "nome": "Aracaju",
+  "uf": "SE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "aracati-ce",
+  "nome": "Aracati",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "aracatuba-sp",
+  "nome": "Araçatuba",
+  "uf": "SP",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "araguina-to",
+  "nome": "Araguina",
+  "uf": "TO",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "arapiraca-al",
+  "nome": "Arapiraca",
+  "uf": "AL",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "araripina-pe",
+  "nome": "Araripina",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "bacabal-ma",
+  "nome": "Bacabal",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "balsas-ma",
+  "nome": "Balsas",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "barbacena-mg",
+  "nome": "Barbacena",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "barcarena-pa",
+  "nome": "Barcarena",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "barra-do-corda-ma",
+  "nome": "Barra Do Corda",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "barreiras-ba",
+  "nome": "Barreiras",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "barreirinhas-ma",
+  "nome": "Barreirinhas",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "bauru-sp",
+  "nome": "Bauru",
+  "uf": "SP",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "belem-pa",
+  "nome": "Belém",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "boa-vista-rr",
+  "nome": "Boa Vista",
+  "uf": "RR",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "bom-jesus-da-lapa-ba",
+  "nome": "Bom Jesus Da Lapa",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "botucatu-sp",
+  "nome": "Botucatu",
+  "uf": "SP",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "braganca-pa",
+  "nome": "Bragança",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "taguatinga-df",
+  "nome": "Taguatinga",
+  "uf": "DF",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "breves-pa",
+  "nome": "Breves",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "brumado-ba",
+  "nome": "Brumado",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "buticupu-ma",
+  "nome": "Buticupu",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "cabo-de-santo-agostinho-pe",
+  "nome": "Cabo De Santo \nAgostinho",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "caceres-mt",
+  "nome": "Cáceres",
+  "uf": "MT",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "cachoeira-de-itapemirim-es",
+  "nome": "Cachoeira De \nItapemirim",
+  "uf": "ES",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "cacoal-ro",
+  "nome": "Cacoal",
+  "uf": "RO",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "caico-rn",
+  "nome": "Caicó",
+  "uf": "RN",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "cazajeiras-pb",
+  "nome": "Cazajeiras",
+  "uf": "PB",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "camaragipe-pe",
+  "nome": "Camaragipe",
+  "uf": "PE",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "cameta-pa",
+  "nome": "Cametá",
+  "uf": "PA",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "camocim-ce",
+  "nome": "Camocim",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "campina-grande-pb",
+  "nome": "Campina Grande",
+  "uf": "PB",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "caninde-ce",
+  "nome": "Canindé",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "carpina-pe",
+  "nome": "Carpina",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "caruaru-pe",
+  "nome": "Caruaru",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "castanhal-pa",
+  "nome": "Castanhal",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "catanduva-sp",
+  "nome": "Catanduva",
+  "uf": "SP",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "caucaia-ce",
+  "nome": "Caucaia",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "caixias-ma",
+  "nome": "Caixias",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "chapadinha-ma",
+  "nome": "Chapadinha",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "coari-am",
+  "nome": "Coari",
+  "uf": "AM",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "codo-ma",
+  "nome": "Codó",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "corumba-ms",
+  "nome": "Corumbá",
+  "uf": "MS",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "crateus-ce",
+  "nome": "Cratèus",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "crato-ce",
+  "nome": "Crato",
+  "uf": "CE",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "cruzeiro-do-sul-ac",
+  "nome": "Cruzeiro Do Sul",
+  "uf": "AC",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "cuiaba-mt",
+  "nome": "Cuiabá",
+  "uf": "MT",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "divinopolis-mg",
+  "nome": "Divinópolis",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "dom-eliseu-pa",
+  "nome": "Dom Eliseu",
+  "uf": "PA",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "dourados-ms",
+  "nome": "Dourados",
+  "uf": "MS",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "estancia-se",
+  "nome": "Estância",
+  "uf": "SE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "euclides-da-cunha-ba",
+  "nome": "Euclides Da Cunha",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "eunapolis-ba",
+  "nome": "Eunápolis",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "feira-de-santana-ba",
+  "nome": "Feira De Santana",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "floriano-pi",
+  "nome": "Floriano",
+  "uf": "PI",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "fortaleza-joquei-ce",
+  "nome": "Fortaleza_Joquéi",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "garanhuns-pe",
+  "nome": "Garanhuns",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "goiana-pe",
+  "nome": "Goiana",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "goianesia-go",
+  "nome": "Goianésia",
+  "uf": "GO",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "goiania-go",
+  "nome": "Goiânia",
+  "uf": "GO",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "governador-valadares-mg",
+  "nome": "Governador Valadares",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "granjau-ma",
+  "nome": "Granjaú",
+  "uf": "MA",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "gravata-pe",
+  "nome": "Gravatá",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "guarabira-pb",
+  "nome": "Guarabira",
+  "uf": "PB",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "guarantingueta-sp",
+  "nome": "Guarantinguetá",
+  "uf": "SP",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "gurupi-to",
+  "nome": "Gurupi",
+  "uf": "TO",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "horizonte-ce",
+  "nome": "Horizonte",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "iguatu-ce",
+  "nome": "Iguatu",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "ilheus-ba",
+  "nome": "Ilhéus",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "imperatriz-ma",
+  "nome": "Imperatriz",
+  "uf": "MA",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "ipatinga-mg",
+  "nome": "Ipatinga",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "irece-ba",
+  "nome": "Irecé",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "itabaiana-se",
+  "nome": "Itabaiana",
+  "uf": "SE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "itaberaba-ba",
+  "nome": "Itaberaba",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "itabira-mg",
+  "nome": "Itabira",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "itabuna-ba",
+  "nome": "Itabuna",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "itacoatiara-ma",
+  "nome": "Itacoatiara",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "itaituba-pa",
+  "nome": "Itaituba",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "itajuba-mg",
+  "nome": "Itajubá",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "itapetinga-ba",
+  "nome": "Itapetinga",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "itaperuna-rj",
+  "nome": "Itaperuna",
+  "uf": "RJ",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "itapipoca-ce",
+  "nome": "Itapipoca",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "ituiutaba-mg",
+  "nome": "Ituiutaba",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "jacobina-ba",
+  "nome": "Jacobina",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "jequie-ba",
+  "nome": "Jequié",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "ji-parana-ro",
+  "nome": "Ji-Paraná",
+  "uf": "RO",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "joao-pessoa-pb",
+  "nome": "João Pessoa",
+  "uf": "PB",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "juazeiro-do-norte-ce",
+  "nome": "Juazeiro Do Norte",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "juazeiro-do-norte-ba",
+  "nome": "Juazeiro Do Norte",
+  "uf": "BA",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "largato-se",
+  "nome": "Largato",
+  "uf": "SE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "linhares-es",
+  "nome": "Linhares",
+  "uf": "ES",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "lins-sp",
+  "nome": "Lins",
+  "uf": "SP",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "lucas-do-rio-verde-mt",
+  "nome": "Lucas Do Rio Verde",
+  "uf": "MT",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "luis-eduardo-magalhaes-ba",
+  "nome": "Luis Eduardo Magalhães",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "macapa-ap",
+  "nome": "Macapá",
+  "uf": "AP",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "maceio-al",
+  "nome": "Maceió",
+  "uf": "AL",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "manacapuru-am",
+  "nome": "Manacapuru",
+  "uf": "AM",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "manaus-am",
+  "nome": "Manaus",
+  "uf": "AM",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "manicore-am",
+  "nome": "Manicoré",
+  "uf": "AM",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "maraba-pa",
+  "nome": "Marabá",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "maracanau-ce",
+  "nome": "Maracanaú",
+  "uf": "CE",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "maranguape-ce",
+  "nome": "Maranguape",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "marilia-sp",
+  "nome": "Marilia",
+  "uf": "SP",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "marituba-pa",
+  "nome": "Marituba",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "maues-am",
+  "nome": "Maués",
+  "uf": "AM",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "monte-alegre-pa",
+  "nome": "Monte Alegre",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "mossoro-rn",
+  "nome": "Mossoró",
+  "uf": "RN",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "murie-mg",
+  "nome": "Murié",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "natal-rn",
+  "nome": "Natal",
+  "uf": "RN",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "novo-repartimentos-pa",
+  "nome": "Novo Repartimentos",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "olinda-pe",
+  "nome": "Olinda",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "OK"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "oriximina-pa",
+  "nome": "Oriximiná",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "ouricuri-pe",
+  "nome": "Ouricuri",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "palhoca-sc",
+  "nome": "Palhoça",
+  "uf": "SC",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "palmas-to",
+  "nome": "Palmas",
+  "uf": "TO",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "OK"
+   },
+   "carteirasPorSala": {
+    "situacao": "OK"
+   }
+  }
+ },
+ {
+  "id": "palmeiras-dos-indios-al",
+  "nome": "Palmeiras Dos Indios",
+  "uf": "AL",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "para-de-minas-mg",
+  "nome": "Pará De Minas",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "paracatu-mg",
+  "nome": "Paracatu",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "paragominas-pa",
+  "nome": "Paragominas",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "parauapebas-pa",
+  "nome": "Parauapebas",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "parintins-am",
+  "nome": "Parintins",
+  "uf": "AM",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "parnaiba-pi",
+  "nome": "Parnaiba",
+  "uf": "PI",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "passo-fundo-rs",
+  "nome": "Passo Fundo",
+  "uf": "RS",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "passos-mg",
+  "nome": "Passos",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "patos-pb",
+  "nome": "Patos",
+  "uf": "PB",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "paulista-pe",
+  "nome": "Paulista",
+  "uf": "PE",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "paulo-afonso-ba",
+  "nome": "Paulo Afonso",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "petrolina-pe",
+  "nome": "Petrolina",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "picos-pi",
+  "nome": "Picos",
+  "uf": "PI",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "pinheiro-ma",
+  "nome": "Pinheiro",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "piripiri-pi",
+  "nome": "Piripiri",
+  "uf": "PI",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "poco-de-caldas-mg",
+  "nome": "Poço De Caldas",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "ponta-grossa-pr",
+  "nome": "Ponta Grossa",
+  "uf": "PR",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "porto-seguro-ba",
+  "nome": "Porto Seguro",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "porto-velho-ro",
+  "nome": "Porto Velho",
+  "uf": "RO",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "pouso-alegre-mg",
+  "nome": "Pouso Alegre",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "primavera-do-leste-mt",
+  "nome": "Primavera Do Leste",
+  "uf": "MT",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "quixada-ce",
+  "nome": "Quixadá",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "recife-pe",
+  "nome": "Recife",
+  "uf": "PE",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "redencao-pa",
+  "nome": "Redenção",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "resende-rj",
+  "nome": "Resende",
+  "uf": "RJ",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "rio-branco-ac",
+  "nome": "Rio Branco",
+  "uf": "AC",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "rondonopolis-mt",
+  "nome": "Rondonopólis",
+  "uf": "MT",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "russas-ce",
+  "nome": "Russas",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "salgueiro-pe",
+  "nome": "Salgueiro",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "salvador-ba",
+  "nome": "Salvador",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "santa-cruz-capibaribe-pe",
+  "nome": "Santa Cruz Capibaribe",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "santa-ines-ma",
+  "nome": "Santa Inês",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "santa-izabel-do-para-pa",
+  "nome": "Santa Izabel Do Pará",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "santana-do-araguia-pa",
+  "nome": "Santana Do Araguia",
+  "uf": "PA",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "santana-do-araguia-ap",
+  "nome": "Santana Do Araguia",
+  "uf": "AP",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "santarem-pa",
+  "nome": "Santarém",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "santo-antonio-de-jesus-ba",
+  "nome": "Santo Antônio De Jesus",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "sao-jose-do-rio-preto-sp",
+  "nome": "São José Do Rio Preto",
+  "uf": "SP",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "sao-leopoldo-rs",
+  "nome": "São Leopoldo",
+  "uf": "RS",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "sao-luiz-ma",
+  "nome": "São Luiz",
+  "uf": "MA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "sao-mateus-es",
+  "nome": "São Mateus",
+  "uf": "ES",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "senhor-do-bonfim-ba",
+  "nome": "Senhor Do Bonfim",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "serra-talhada-pe",
+  "nome": "Serra Talhada",
+  "uf": "PE",
+  "classificacao": "Sem documentos",
+  "statusGeral": "SEM_DOCUMENTOS",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "serrinha-ba",
+  "nome": "Serrinha",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "sete-lagoas-mg",
+  "nome": "Sete Lagoas",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "sobral-ce",
+  "nome": "Sobral",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "surumbi-pe",
+  "nome": "Surumbi",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "tailandia-pa",
+  "nome": "Tailândia",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "tangara-da-serra-mt",
+  "nome": "Tangará Da Serra",
+  "uf": "MT",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "taua-ce",
+  "nome": "Tauá",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "taubate-sp",
+  "nome": "Taubáte",
+  "uf": "SP",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "OK"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "tefe-am",
+  "nome": "Tefé",
+  "uf": "AM",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "teofilo-otoni-mg",
+  "nome": "Teofilo Otoni",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "teresina-pi",
+  "nome": "Teresina",
+  "uf": "PI",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "texeira-de-freitas-ba",
+  "nome": "Texeira De Freitas",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "tiangua-ce",
+  "nome": "Tianguá",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "tome-acu-pa",
+  "nome": "Tome Açu",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "tres-lagoas-ms",
+  "nome": "Três Lagoas",
+  "uf": "MS",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "treze-de-maio-fortaleza-ce",
+  "nome": "Treze De Maio_Fortaleza",
+  "uf": "CE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "OK"
+   },
+   "acessibilidade": {
+    "situacao": "OK"
+   },
+   "planoEmergencia": {
+    "situacao": "OK"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "tucurui-pa",
+  "nome": "Tucurui",
+  "uf": "PA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "uba-mg",
+  "nome": "Ubá",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "uberaba-mg",
+  "nome": "Uberaba",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "unai-mg",
+  "nome": "Unai",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "FALTA"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "valenca-ba",
+  "nome": "Valença",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "varginha-mg",
+  "nome": "Varginha",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "vicosa-mg",
+  "nome": "Viçosa",
+  "uf": "MG",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "vila-velha-es",
+  "nome": "Vila Velha",
+  "uf": "ES",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "vilhena-ro",
+  "nome": "Vilhena",
+  "uf": "RO",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "OK"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "vitoria-da-conquista-ba",
+  "nome": "Vitória Da Conquista",
+  "uf": "BA",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "OK"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "vitoria-de-santo-antao-pe",
+  "nome": "Vitória De Santo Antão",
+  "uf": "PE",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "FALTA"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ },
+ {
+  "id": "vitoria-es",
+  "nome": "Vitória",
+  "uf": "ES",
+  "classificacao": "Parcial",
+  "statusGeral": "PARCIAL",
+  "documentos": {
+   "contratoLocacao": {
+    "situacao": "FALTA"
+   },
+   "cnpj": {
+    "situacao": "FALTA"
+   },
+   "alvaraFuncionamento": {
+    "situacao": "FALTA"
+   },
+   "avcbClcb": {
+    "situacao": "FALTA"
+   },
+   "acessibilidade": {
+    "situacao": "FALTA"
+   },
+   "planoEmergencia": {
+    "situacao": "FALTA"
+   },
+   "iptu": {
+    "situacao": "OK"
+   },
+   "plantaBaixa": {
+    "situacao": "OK"
+   },
+   "laboratoriosSaude": {
+    "situacao": "FALTA"
+   },
+   "carteirasPorSala": {
+    "situacao": "FALTA"
+   }
+  }
+ }
+]
