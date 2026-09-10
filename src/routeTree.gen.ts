@@ -10,11 +10,18 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as DashboardRouteImport } from './routes/dashboard'
 import { Route as PendenciasRouteImport } from './routes/pendencias'
+import { Route as UnidadesIdRouteImport } from './routes/unidades.$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardRoute = DashboardRouteImport.update({
+  id: '/dashboard',
+  path: '/dashboard',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PendenciasRoute = PendenciasRouteImport.update({
@@ -22,31 +29,44 @@ const PendenciasRoute = PendenciasRouteImport.update({
   path: '/pendencias',
   getParentRoute: () => rootRouteImport,
 } as any)
+const UnidadesIdRoute = UnidadesIdRouteImport.update({
+  id: '/unidades/$id',
+  path: '/unidades/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/dashboard': typeof DashboardRoute
   '/pendencias': typeof PendenciasRoute
+  '/unidades/$id': typeof UnidadesIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/dashboard': typeof DashboardRoute
   '/pendencias': typeof PendenciasRoute
+  '/unidades/$id': typeof UnidadesIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/dashboard': typeof DashboardRoute
   '/pendencias': typeof PendenciasRoute
+  '/unidades/$id': typeof UnidadesIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/pendencias'
+  fullPaths: '/' | '/dashboard' | '/pendencias' | '/unidades/$id'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/pendencias'
-  id: '__root__' | '/' | '/pendencias'
+  to: '/' | '/dashboard' | '/pendencias' | '/unidades/$id'
+  id: '__root__' | '/' | '/dashboard' | '/pendencias' | '/unidades/$id'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  DashboardRoute: typeof DashboardRoute
   PendenciasRoute: typeof PendenciasRoute
+  UnidadesIdRoute: typeof UnidadesIdRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -58,6 +78,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dashboard': {
+      id: '/dashboard'
+      path: '/dashboard'
+      fullPath: '/dashboard'
+      preLoaderRoute: typeof DashboardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/pendencias': {
       id: '/pendencias'
       path: '/pendencias'
@@ -65,12 +92,21 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PendenciasRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/unidades/$id': {
+      id: '/unidades/$id'
+      path: '/unidades/$id'
+      fullPath: '/unidades/$id'
+      preLoaderRoute: typeof UnidadesIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  DashboardRoute: DashboardRoute,
   PendenciasRoute: PendenciasRoute,
+  UnidadesIdRoute: UnidadesIdRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
