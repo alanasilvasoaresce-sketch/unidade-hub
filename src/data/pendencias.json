@@ -1,0 +1,65 @@
+[
+ {
+  "id": "pend-2",
+  "unidadeId": "linhares-es",
+  "unidade": "Linhares",
+  "uf": "ES",
+  "documento": "IPTU",
+  "motivo": "O IPTU vem com endereço diferente do contrato de locação",
+  "impacto": ""
+ },
+ {
+  "id": "pend-3",
+  "unidadeId": "ouricuri-pe",
+  "unidade": "Ouricuri",
+  "uf": "PE",
+  "documento": "IPTU",
+  "motivo": "O IPTU vem com endereço diferente do contrato de locação",
+  "impacto": ""
+ },
+ {
+  "id": "pend-4",
+  "unidadeId": null,
+  "unidade": "Buriticupu",
+  "uf": "MA",
+  "documento": "IPTU",
+  "motivo": "",
+  "impacto": ""
+ },
+ {
+  "id": "pend-5",
+  "unidadeId": "uberaba-mg",
+  "unidade": "Uberaba",
+  "uf": "MG",
+  "documento": "IPTU",
+  "motivo": "",
+  "impacto": ""
+ },
+ {
+  "id": "pend-6",
+  "unidadeId": "serra-talhada-pe",
+  "unidade": "Serra Talhada",
+  "uf": "PE",
+  "documento": "IPTU",
+  "motivo": "",
+  "impacto": ""
+ },
+ {
+  "id": "pend-7",
+  "unidadeId": "aracaju-se",
+  "unidade": "Aracaju",
+  "uf": "SE",
+  "documento": "IPTU",
+  "motivo": "",
+  "impacto": ""
+ },
+ {
+  "id": "pend-8",
+  "unidadeId": "caceres-mt",
+  "unidade": "Caceres",
+  "uf": "MT",
+  "documento": "IPTU",
+  "motivo": "",
+  "impacto": ""
+ }
+]
