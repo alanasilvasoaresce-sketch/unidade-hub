@@ -62,7 +62,7 @@ export type Unidade = {
   id: string;
   nome: string;
   uf: string;
-  classificacao?: string;
+  classificacao?: string | undefined;
   statusGeral: StatusGeral;
   documentos: Partial<Record<DocumentoId, Documento>>;
 };
