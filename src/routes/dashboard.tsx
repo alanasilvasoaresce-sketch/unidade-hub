@@ -27,7 +27,7 @@ export const Route = createFileRoute("/dashboard")({
       },
     ],
   }),
-  component: Dashboard;
+  component: Dashboard,
 });
 
 function Dashboard() {

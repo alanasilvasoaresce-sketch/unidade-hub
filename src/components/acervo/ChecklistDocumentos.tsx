@@ -1,11 +1,13 @@
-import { documentosExigidos, situacaoDe, type Unidade } from "@/lib/acervo";
+import { documentosExigidos, situacaoDe, type Documento, type Unidade } from "@/lib/acervo";
 import { StatusChip } from "./StatusChip";
+
+const semDados: Documento = { situacao: "SEM_DADOS" };
 
 export function ChecklistDocumentos({ unidade }: { unidade?: Unidade }) {
   return (
     <div className="space-y-2">
       {documentosExigidos.map((doc, i) => {
-        const item = unidade ? situacaoDe(unidade, doc.id) : { situacao: "SEM_DADOS" as const };
+        const item = unidade ? situacaoDe(unidade, doc.id) : semDados;
         return (
           <div
             key={doc.id}
@@ -19,7 +21,7 @@ export function ChecklistDocumentos({ unidade }: { unidade?: Unidade }) {
               {String(i + 1).padStart(2, "0")}
             </span>
             <span className="flex-1 font-sans text-sm text-muted">{doc.nome}</span>
-            {"arquivoUrl" in item && item.arquivoUrl && (
+            {item.arquivoUrl && (
               <a
                 href={item.arquivoUrl}
                 target="_blank"
