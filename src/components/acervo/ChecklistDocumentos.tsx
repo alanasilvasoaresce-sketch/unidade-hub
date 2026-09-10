@@ -3,7 +3,7 @@ import { StatusChip } from "./StatusChip";
 
 const semDados: Documento = { situacao: "SEM_DADOS" };
 
-export function ChecklistDocumentos({ unidade }: { unidade?: Unidade }) {
+export function ChecklistDocumentos({ unidade }: { unidade?: Unidade | undefined }) {
   return (
     <div className="space-y-2">
       {documentosExigidos.map((doc, i) => {
