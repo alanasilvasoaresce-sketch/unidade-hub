@@ -32,6 +32,14 @@ function DetalheUnidade() {
   const unidade = unidades.find((u) => u.id === id);
   const progresso = unidade ? progressoDocumentos(unidade) : null;
 
+  const buscarArquivos = useServerFn(obterArquivosDaUnidade);
+  const drive = useQuery({
+    queryKey: ["drive", unidade?.nome, unidade?.uf],
+    enabled: Boolean(unidade),
+    staleTime: 0,
+    queryFn: () => buscarArquivos({ data: { nome: unidade!.nome, uf: unidade!.uf } }),
+  });
+
   return (
     <>
       <CabecalhoInterno
@@ -56,14 +64,26 @@ function DetalheUnidade() {
               <p className="mt-0.5 font-sans text-xs text-muted">
                 Situação de cada documento · 10 itens por unidade
               </p>
+              <p className="mt-1 font-mono text-[10px] uppercase tracking-wide text-faint">
+                {drive.isPending && unidade
+                  ? "Procurando arquivos no Google Drive…"
+                  : drive.isError
+                    ? "Não foi possível consultar o Google Drive agora"
+                    : drive.data?.pastaEncontrada
+                      ? `Arquivos lidos direto do Google Drive · pasta ${drive.data.pasta?.nome}`
+                      : unidade
+                        ? "Nenhuma pasta desta unidade encontrada no Google Drive"
+                        : ""}
+              </p>
             </div>
             <div className="px-5 py-4">
-              <ChecklistDocumentos unidade={unidade} />
+              <ChecklistDocumentos unidade={unidade} arquivosDrive={drive.data?.arquivos} />
               <div className="mt-4">
                 <LegendaSituacoes />
               </div>
             </div>
           </section>
+
 
           <section className="space-y-5 lg:col-span-4">
             <div className="rounded-lg border border-line bg-surface px-5 py-4">
