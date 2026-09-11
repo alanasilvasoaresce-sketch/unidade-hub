@@ -3,11 +3,19 @@ import { StatusChip } from "./StatusChip";
 
 const semDados: Documento = { situacao: "SEM_DADOS" };
 
-export function ChecklistDocumentos({ unidade }: { unidade?: Unidade | undefined }) {
+export function ChecklistDocumentos({
+  unidade,
+  arquivosDrive,
+}: {
+  unidade?: Unidade | undefined;
+  arquivosDrive?: Record<string, { nome: string; url: string }> | undefined;
+}) {
   return (
     <div className="space-y-2">
       {documentosExigidos.map((doc, i) => {
         const item = unidade ? situacaoDe(unidade, doc.id) : semDados;
+        const arquivo = arquivosDrive?.[doc.id];
+        const arquivoUrl = arquivo?.url ?? item.arquivoUrl;
         return (
           <div
             key={doc.id}
@@ -20,17 +28,25 @@ export function ChecklistDocumentos({ unidade }: { unidade?: Unidade | undefined
             <span className="w-4 font-mono text-[10px] text-faint">
               {String(i + 1).padStart(2, "0")}
             </span>
-            <span className="flex-1 font-sans text-sm text-muted">{doc.nome}</span>
-            {item.arquivoUrl && (
+            <span className="min-w-0 flex-1 font-sans text-sm text-muted">
+              {doc.nome}
+              {arquivo && (
+                <span className="mt-0.5 block truncate font-mono text-[10px] text-faint">
+                  {arquivo.nome}
+                </span>
+              )}
+            </span>
+            {arquivoUrl && (
               <a
-                href={item.arquivoUrl}
+                href={arquivoUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-md border border-line bg-surface px-2.5 py-1 font-sans text-xs font-medium text-brand hover:border-brand"
+                className="shrink-0 rounded-md border border-line bg-surface px-2.5 py-1 font-sans text-xs font-medium text-brand hover:border-brand"
               >
                 Visualizar documento
               </a>
             )}
+
             <StatusChip situacao={item.situacao} />
           </div>
         );
