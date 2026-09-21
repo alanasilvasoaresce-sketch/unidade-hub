@@ -5,8 +5,9 @@ import { useServerFn } from "@tanstack/react-start";
 import { ChecklistDocumentos } from "@/components/acervo/ChecklistDocumentos";
 import { CabecalhoInterno, Pagina, RodapeAcervo } from "@/components/acervo/SiteChrome";
 import { LegendaSituacoes, StatusGeralChip } from "@/components/acervo/StatusChip";
-import { progressoDocumentos, unidades } from "@/lib/acervo";
+import { progressoDocumentos } from "@/lib/acervo";
 import { obterArquivosDaUnidade } from "@/lib/drive.functions";
+import { useAcervo } from "@/lib/useAcervo";
 
 export const Route = createFileRoute("/unidades/$id")({
   head: () => ({
