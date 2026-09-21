@@ -30,6 +30,7 @@ export const Route = createFileRoute("/unidades/$id")({
 
 function DetalheUnidade() {
   const { id } = Route.useParams();
+  const { unidades } = useAcervo();
   const unidade = unidades.find((u) => u.id === id);
   const progresso = unidade ? progressoDocumentos(unidade) : null;
 
