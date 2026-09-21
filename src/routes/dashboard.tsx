@@ -6,10 +6,9 @@ import {
   contagemPorDocumento,
   contagemPorSituacao,
   documentosExigidos,
-  pendenciasCriticas,
   resumo,
-  unidades,
 } from "@/lib/acervo";
+import { useAcervo } from "@/lib/useAcervo";
 
 export const Route = createFileRoute("/dashboard")({
   head: () => ({

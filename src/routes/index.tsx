@@ -7,7 +7,8 @@ import { Indicadores } from "@/components/acervo/Indicadores";
 import { HeroAcervo, Pagina, RodapeAcervo } from "@/components/acervo/SiteChrome";
 import { LegendaSituacoes } from "@/components/acervo/StatusChip";
 import { TabelaUnidades } from "@/components/acervo/TabelaUnidades";
-import { filtrarUnidades, pendenciasCriticas, resumo, unidades } from "@/lib/acervo";
+import { filtrarUnidades, resumo } from "@/lib/acervo";
+import { useAcervo } from "@/lib/useAcervo";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -31,14 +32,26 @@ export const Route = createFileRoute("/")({
 function Home() {
   const [busca, setBusca] = useState("");
   const [uf, setUf] = useState("");
+  const acervo = useAcervo();
+  const pendenciasCriticas = acervo.pendencias;
 
-  const lista = useMemo(() => filtrarUnidades(unidades, busca, uf), [busca, uf]);
+  const lista = useMemo(
+    () => filtrarUnidades(acervo.unidades, busca, uf),
+    [acervo.unidades, busca, uf],
+  );
   const dados = resumo(lista);
 
   return (
     <>
       <HeroAcervo />
       <Pagina>
+        <p className="font-mono text-[10px] uppercase tracking-wide text-faint">
+          {acervo.carregando
+            ? "Lendo os dados da planilha do Google Sheets…"
+            : acervo.origem === "planilha"
+              ? "Dados lidos ao vivo da planilha do Google Sheets"
+              : "Planilha indisponível agora · exibindo os dados importados anteriormente"}
+        </p>
         <FiltroBar
           busca={busca}
           uf={uf}
