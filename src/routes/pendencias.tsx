@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import { CabecalhoInterno, Pagina, RodapeAcervo } from "@/components/acervo/SiteChrome";
 import { TabelaPendencias } from "@/components/acervo/TabelaPendencias";
-import { pendenciasCriticas } from "@/lib/acervo";
+import { useAcervo } from "@/lib/useAcervo";
 
 export const Route = createFileRoute("/pendencias")({
   head: () => ({
@@ -24,6 +24,7 @@ export const Route = createFileRoute("/pendencias")({
 });
 
 function Pendencias() {
+  const { pendencias: pendenciasCriticas } = useAcervo();
   return (
     <>
       <CabecalhoInterno

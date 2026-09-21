@@ -6,10 +6,9 @@ import {
   contagemPorDocumento,
   contagemPorSituacao,
   documentosExigidos,
-  pendenciasCriticas,
   resumo,
-  unidades,
 } from "@/lib/acervo";
+import { useAcervo } from "@/lib/useAcervo";
 
 export const Route = createFileRoute("/dashboard")({
   head: () => ({
@@ -31,6 +30,9 @@ export const Route = createFileRoute("/dashboard")({
 });
 
 function Dashboard() {
+  const acervo = useAcervo();
+  const unidades = acervo.unidades;
+  const pendenciasCriticas = acervo.pendencias;
   const dados = resumo(unidades);
   const situacoes = contagemPorSituacao(unidades);
   const porDocumento = contagemPorDocumento(unidades);
