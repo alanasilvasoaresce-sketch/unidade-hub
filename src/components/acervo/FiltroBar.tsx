@@ -1,4 +1,5 @@
 import { ufs } from "@/lib/acervo";
+import { Button } from "@/components/ui/button";
 
 type Props = {
   busca: string;
@@ -10,7 +11,7 @@ type Props = {
 
 export function FiltroBar({ busca, uf, onBusca, onUf, onLimpar }: Props) {
   return (
-    <section className="sticky top-0 z-20 -mx-8 border-y border-line bg-background/95 px-8 py-3 backdrop-blur">
+    <section className="sticky top-[73px] z-20 rounded-lg border border-line bg-surface/95 px-4 py-3 backdrop-blur">
       <div className="flex items-center gap-3">
         <div className="relative max-w-md flex-1">
           <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-sm text-faint">
@@ -38,13 +39,12 @@ export function FiltroBar({ busca, uf, onBusca, onUf, onLimpar }: Props) {
             </option>
           ))}
         </select>
-        <button
+        <Button
           type="button"
           onClick={onLimpar}
-          className="h-10 rounded-md bg-brand px-4 font-sans text-sm font-medium text-brand-foreground transition-opacity hover:opacity-90"
         >
           Limpar filtros
-        </button>
+        </Button>
       </div>
     </section>
   );

@@ -1,111 +1,125 @@
 import { Link } from "@tanstack/react-router";
+import { AlertTriangle, BarChart3, Bell, Building2, FileText, Home, Search, Settings, UserRound } from "lucide-react";
 import type { ReactNode } from "react";
 
-import heroCampus from "@/assets/hero-campus.jpg";
+const navItems = [
+  { to: "/", label: "Início", icon: Home },
+  { to: "/", label: "Unidades", icon: Building2 },
+  { to: "/pendencias", label: "Pendências", icon: AlertTriangle },
+  { to: "/dashboard", label: "Relatórios", icon: BarChart3 },
+] as const;
 
-const linkClasses = "font-mono text-[11px] uppercase tracking-wide transition-colors";
-
-function Nav({ tone }: { tone: "escuro" | "claro" }) {
-  const base = tone === "escuro" ? "text-stone-300/70 hover:text-white" : "text-muted hover:text-foreground";
-  const ativo = tone === "escuro" ? "text-white" : "text-foreground";
+function Sidebar() {
   return (
-    <nav className="flex items-center gap-5">
-      <Link to="/" className={`${linkClasses} ${base}`} activeProps={{ className: `${linkClasses} ${ativo}` }}>
-        Unidades
-      </Link>
-      <Link
-        to="/pendencias"
-        className={`${linkClasses} ${base}`}
-        activeProps={{ className: `${linkClasses} ${ativo}` }}
-      >
-        Pendências críticas
-      </Link>
-      <Link
-        to="/dashboard"
-        className={`${linkClasses} ${base}`}
-        activeProps={{ className: `${linkClasses} ${ativo}` }}
-      >
-        Dashboard
-      </Link>
-    </nav>
+    <aside className="border-sidebar-border bg-sidebar text-sidebar-foreground lg:fixed lg:inset-y-0 lg:left-0 lg:w-64 lg:border-r">
+      <div className="flex h-full flex-col px-4 py-5">
+        <Link to="/" className="flex items-center gap-3 px-2">
+          <span className="grid size-10 place-items-center rounded-md border border-sidebar-border bg-sidebar-active/20">
+            <Home className="size-5" />
+          </span>
+          <span>
+            <span className="block font-display text-lg font-bold leading-none tracking-tight">Unidade Hub</span>
+            <span className="mt-1 block font-sans text-xs text-sidebar-muted">Gestão de Unidades</span>
+          </span>
+        </Link>
+
+        <nav className="mt-8 space-y-1.5">
+          {navItems.map((item) => {
+            const Icon = item.icon;
+            return (
+              <Link
+                key={`${item.label}-${item.to}`}
+                to={item.to}
+                className="flex h-11 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted transition-colors hover:bg-sidebar-active/70 hover:text-sidebar-active-foreground"
+                activeProps={{ className: "bg-sidebar-active text-sidebar-active-foreground" }}
+              >
+                <Icon className="size-4" />
+                {item.label}
+              </Link>
+            );
+          })}
+          <div className="flex h-11 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted">
+            <FileText className="size-4" />
+            Documentos
+          </div>
+          <div className="flex h-11 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted">
+            <Settings className="size-4" />
+            Configurações
+          </div>
+        </nav>
+      </div>
+    </aside>
+  );
+}
+
+export function UnidadeHubShell({
+  titulo,
+  descricao,
+  children,
+}: {
+  titulo: string;
+  descricao: string;
+  children: ReactNode;
+}) {
+  return (
+    <div className="min-h-screen bg-background text-foreground lg:flex">
+      <Sidebar />
+      <div className="min-w-0 flex-1 lg:pl-64">
+        <header className="sticky top-0 z-30 border-b border-line bg-topbar/95 px-5 py-4 text-sidebar-foreground backdrop-blur sm:px-8 lg:px-10">
+          <div className="mx-auto flex max-w-[1240px] items-center gap-4">
+            <div className="relative hidden flex-1 sm:block">
+              <Search className="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-sidebar-muted" />
+              <div className="h-10 rounded-md border border-sidebar-border bg-sidebar-active/20 pl-11 pr-4 font-sans text-sm leading-10 text-sidebar-muted">
+                Buscar unidade, cidade ou pendência...
+              </div>
+            </div>
+            <div className="ml-auto flex items-center gap-3">
+              <span className="relative grid size-9 place-items-center rounded-md border border-sidebar-border bg-sidebar-active/15">
+                <Bell className="size-4" />
+                <span className="absolute right-2 top-2 size-1.5 rounded-full bg-critical" />
+              </span>
+              <span className="grid size-9 place-items-center rounded-full bg-surface text-brand">
+                <UserRound className="size-4" />
+              </span>
+              <span className="hidden font-sans text-sm font-medium sm:inline">Alana Soares</span>
+            </div>
+          </div>
+        </header>
+        <main className="mx-auto max-w-[1240px] space-y-7 px-5 py-7 sm:px-8 lg:px-10">
+          <section>
+            <h1 className="font-display text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
+              {titulo}
+            </h1>
+            <p className="mt-2 max-w-[72ch] font-sans text-sm text-muted">{descricao}</p>
+          </section>
+          {children}
+        </main>
+      </div>
+    </div>
   );
 }
 
 export function HeroAcervo() {
-  return (
-    <section className="relative h-[360px]">
-      <img
-        src={heroCampus}
-        alt="Corredor de um campus universitário moderno em luz difusa"
-        width={1920}
-        height={720}
-        className="absolute inset-0 size-full object-cover"
-      />
-      <div className="absolute inset-x-0 bottom-0 h-[62%] bg-gradient-to-t from-stone-950/85 via-stone-950/30 to-transparent" />
-      <div className="relative mx-auto flex h-full max-w-[1440px] flex-col justify-between px-8 py-8">
-        <div className="flex items-center justify-between text-stone-200/80">
-          <div className="flex items-center gap-2.5">
-            <span className="size-2.5 rounded-[3px] bg-brand" />
-            <span className="font-display text-sm font-semibold tracking-tight">Acervo das Unidades</span>
-          </div>
-          <Nav tone="escuro" />
-        </div>
-        <div>
-          <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-stone-300/70">
-            Consultas · Compliance
-          </p>
-          <h1 className="mt-2 text-balance font-display text-[44px] font-extrabold leading-[1.02] tracking-tight text-white">
-            Acervo das Unidades
-          </h1>
-          <p className="mt-3 max-w-[46ch] text-pretty font-sans text-sm text-stone-200/80">
-            Consulta de documentos e status de regularidade por unidade.
-          </p>
-        </div>
-      </div>
-    </section>
-  );
+  return null;
 }
 
 export function CabecalhoInterno({ titulo, descricao }: { titulo: string; descricao: string }) {
   return (
-    <header className="border-b border-line bg-surface">
-      <div className="mx-auto max-w-[1440px] px-8 py-5">
-        <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2.5">
-            <span className="size-2.5 rounded-[3px] bg-brand" />
-            <span className="font-display text-sm font-semibold tracking-tight text-foreground">
-              Acervo das Unidades
-            </span>
-          </Link>
-          <Nav tone="claro" />
-        </div>
-        <h1 className="mt-6 text-balance font-display text-3xl font-extrabold tracking-tight text-foreground">
-          {titulo}
-        </h1>
-        <p className="mt-2 max-w-[60ch] text-pretty font-sans text-sm text-muted">{descricao}</p>
-      </div>
-    </header>
+    <section>
+      <h1 className="font-display text-3xl font-extrabold tracking-tight text-foreground">{titulo}</h1>
+      <p className="mt-2 max-w-[72ch] font-sans text-sm text-muted">{descricao}</p>
+    </section>
   );
 }
 
 export function RodapeAcervo() {
   return (
-    <footer className="border-t border-line">
-      <div className="mx-auto flex max-w-[1440px] items-center justify-between px-8 py-5">
-        <div className="flex items-center gap-2.5">
-          <span className="size-2.5 rounded-[3px] bg-brand" />
-          <span className="font-display text-sm font-semibold tracking-tight text-foreground">
-            Acervo das Unidades
-          </span>
-        </div>
-        <span className="font-mono text-[11px] text-faint">
-          Acervo das Unidades · v0.1 · dados a importar
-        </span>
-      </div>
+    <footer className="mx-auto max-w-[1240px] px-5 pb-6 text-center font-sans text-xs text-faint sm:px-8 lg:px-10">
+      Unidade Hub · gestão de unidades, mais simples e eficiente.
     </footer>
   );
 }
 
 export function Pagina({ children }: { children: ReactNode }) {
-  return <main className="mx-auto max-w-[1440px] space-y-9 px-8 py-9">{children}</main>;
+  return <div className="space-y-7">{children}</div>;
 }
