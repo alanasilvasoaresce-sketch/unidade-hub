@@ -4,6 +4,7 @@
  * arquivo no próprio Drive.
  */
 import type { DocumentoId } from "@/lib/acervo";
+import type { ArquivoDrive } from "@/lib/drive.types";
 
 const GATEWAY = "https://connector-gateway.lovable.dev/google_drive/drive/v3";
 
@@ -14,8 +15,6 @@ type DriveFile = {
   webViewLink?: string;
   modifiedTime?: string;
 };
-
-export type ArquivoDrive = { nome: string; url: string };
 
 function normalizar(texto: string) {
   return texto
@@ -102,6 +101,17 @@ function maisRecente(arquivos: DriveFile[]) {
   )[0];
 }
 
+function arquivoDrive(file: DriveFile): ArquivoDrive | undefined {
+  if (!file.webViewLink) return undefined;
+  return {
+    id: file.id,
+    nome: file.name,
+    url: file.webViewLink,
+    visualizacaoUrl: `https://drive.google.com/file/d/${file.id}/preview`,
+    mimeType: file.mimeType,
+  };
+}
+
 /**
  * Devolve, para cada documento exigido, o arquivo correspondente encontrado na
  * pasta da unidade no Google Drive. Sempre lido ao vivo, então trocar ou
@@ -109,7 +119,13 @@ function maisRecente(arquivos: DriveFile[]) {
  */
 export async function buscarArquivosDaUnidade(nome: string, uf: string) {
   const pasta = await encontrarPastaUnidade(nome, uf);
-  if (!pasta) return { pastaEncontrada: false, arquivos: {} as Record<string, ArquivoDrive> };
+  if (!pasta) {
+    return {
+      pastaEncontrada: false,
+      arquivos: {} as Record<string, ArquivoDrive>,
+      outrosDocumentos: [] as ArquivoDrive[],
+    };
+  }
 
   const diretos = await listar(`'${pasta.id}' in parents and trashed=false`);
   const subpastas = diretos.filter(
@@ -126,16 +142,25 @@ export async function buscarArquivosDaUnidade(nome: string, uf: string) {
   );
 
   const arquivos: Record<string, ArquivoDrive> = {};
+  const escolhidos = new Set<string>();
   for (const [id, termos] of Object.entries(palavrasChave) as [DocumentoId, string[]][]) {
     const correspondentes = todos.filter((f) => {
       const n = normalizar(f.name);
       return termos.some((termo) => n.includes(termo));
     });
     const escolhido = maisRecente(correspondentes);
-    if (escolhido?.webViewLink) {
-      arquivos[id] = { nome: escolhido.name, url: escolhido.webViewLink };
+    const arquivo = escolhido ? arquivoDrive(escolhido) : undefined;
+    if (arquivo) {
+      arquivos[id] = arquivo;
+      escolhidos.add(arquivo.id);
     }
   }
 
-  return { pastaEncontrada: true, pasta: { id: pasta.id, nome: pasta.name }, arquivos };
+  const outrosDocumentos = todos
+    .filter((file) => !escolhidos.has(file.id))
+    .map(arquivoDrive)
+    .filter((arquivo): arquivo is ArquivoDrive => Boolean(arquivo))
+    .sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+
+  return { pastaEncontrada: true, pasta: { id: pasta.id, nome: pasta.name }, arquivos, outrosDocumentos };
 }

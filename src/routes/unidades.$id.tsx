@@ -2,8 +2,8 @@ import { useQuery } from "@tanstack/react-query";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
 
-import { ChecklistDocumentos } from "@/components/acervo/ChecklistDocumentos";
-import { CabecalhoInterno, Pagina, RodapeAcervo } from "@/components/acervo/SiteChrome";
+import { DocumentosDaUnidade } from "@/components/acervo/DocumentosDaUnidade";
+import { Pagina, UnidadeHubShell } from "@/components/acervo/SiteChrome";
 import { LegendaSituacoes, StatusGeralChip } from "@/components/acervo/StatusChip";
 import { progressoDocumentos } from "@/lib/acervo";
 import { obterArquivosDaUnidade } from "@/lib/drive.functions";
@@ -23,6 +23,8 @@ export const Route = createFileRoute("/unidades/$id")({
         property: "og:description",
         content: "Situação de cada documento da unidade, com acesso aos arquivos.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: DetalheUnidade,
@@ -39,29 +41,33 @@ function DetalheUnidade() {
     queryKey: ["drive", unidade?.nome, unidade?.uf],
     enabled: Boolean(unidade),
     staleTime: 0,
-    queryFn: () => buscarArquivos({ data: { nome: unidade!.nome, uf: unidade!.uf } }),
+    queryFn: () => {
+      if (!unidade) {
+        return Promise.resolve({ pastaEncontrada: false, arquivos: {}, outrosDocumentos: [] });
+      }
+      return buscarArquivos({ data: { nome: unidade.nome, uf: unidade.uf } });
+    },
   });
 
   return (
-    <>
-      <CabecalhoInterno
+    <UnidadeHubShell
         titulo={unidade?.nome ?? "Unidade não encontrada"}
         descricao={
           unidade
-            ? "Situação de cada documento da unidade. Documentos com arquivo disponível trazem o botão “Visualizar documento”."
+            ? "Situação de cada documento da unidade, com visualização integrada dos arquivos encontrados na pasta do Google Drive."
             : "Nenhuma unidade cadastrada com este identificador. A base será preenchida com os dados da planilha."
         }
-      />
+      >
       <Pagina>
         <Link to="/" className="font-mono text-[11px] uppercase tracking-wide text-brand hover:underline">
           ← Voltar para as unidades
         </Link>
 
         <div className="grid grid-cols-1 gap-5 lg:grid-cols-12">
-          <section className="rounded-lg border border-line bg-surface lg:col-span-8">
+          <section className="rounded-lg border border-line bg-surface shadow-sm lg:col-span-8">
             <div className="border-b border-line px-5 py-4">
               <h2 className="font-display text-lg font-bold tracking-tight text-foreground">
-                Documentos
+                Documentos por tipo
               </h2>
               <p className="mt-0.5 font-sans text-xs text-muted">
                 Situação de cada documento · 10 itens por unidade
@@ -79,7 +85,11 @@ function DetalheUnidade() {
               </p>
             </div>
             <div className="px-5 py-4">
-              <ChecklistDocumentos unidade={unidade} arquivosDrive={drive.data?.arquivos} />
+              <DocumentosDaUnidade
+                unidade={unidade}
+                arquivosDrive={drive.data?.arquivos}
+                outrosDocumentos={drive.data?.outrosDocumentos}
+              />
               <div className="mt-4">
                 <LegendaSituacoes />
               </div>
@@ -88,7 +98,7 @@ function DetalheUnidade() {
 
 
           <section className="space-y-5 lg:col-span-4">
-            <div className="rounded-lg border border-line bg-surface px-5 py-4">
+            <div className="rounded-lg border border-line bg-surface px-5 py-4 shadow-sm">
               <h2 className="font-display text-lg font-bold tracking-tight text-foreground">
                 Identificação
               </h2>
@@ -114,7 +124,7 @@ function DetalheUnidade() {
               </dl>
             </div>
 
-            <div className="rounded-lg border border-line bg-surface px-5 py-4">
+            <div className="rounded-lg border border-line bg-surface px-5 py-4 shadow-sm">
               <span className="font-mono text-[10px] uppercase tracking-[0.12em] text-muted">
                 Progresso documental
               </span>
@@ -131,7 +141,6 @@ function DetalheUnidade() {
           </section>
         </div>
       </Pagina>
-      <RodapeAcervo />
-    </>
+    </UnidadeHubShell>
   );
 }

@@ -1,10 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 
-import { ChecklistDocumentos } from "@/components/acervo/ChecklistDocumentos";
 import { FiltroBar } from "@/components/acervo/FiltroBar";
 import { Indicadores } from "@/components/acervo/Indicadores";
-import { HeroAcervo, Pagina, RodapeAcervo } from "@/components/acervo/SiteChrome";
+import { Pagina, UnidadeHubShell } from "@/components/acervo/SiteChrome";
 import { LegendaSituacoes } from "@/components/acervo/StatusChip";
 import { TabelaUnidades } from "@/components/acervo/TabelaUnidades";
 import { filtrarUnidades, resumo } from "@/lib/acervo";
@@ -24,6 +23,8 @@ export const Route = createFileRoute("/")({
         property: "og:description",
         content: "Consulta de documentos e status de regularidade por unidade.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Home,
@@ -42,8 +43,10 @@ function Home() {
   const dados = resumo(lista);
 
   return (
-    <>
-      <HeroAcervo />
+    <UnidadeHubShell
+      titulo="Acervo das Unidades"
+      descricao="Aqui você acompanha o status das unidades, pendências e documentos."
+    >
       <Pagina>
         <p className="font-mono text-[10px] uppercase tracking-wide text-faint">
           {acervo.carregando
@@ -91,7 +94,7 @@ function Home() {
         <TabelaUnidades unidades={lista} />
 
         <div className="grid grid-cols-1 gap-5 lg:grid-cols-12">
-          <section className="rounded-lg border border-line bg-surface lg:col-span-7">
+          <section className="rounded-lg border border-line bg-surface shadow-sm lg:col-span-7">
             <div className="border-b border-line px-5 py-4">
               <h2 className="font-display text-lg font-bold tracking-tight text-foreground">
                 Detalhe da unidade
@@ -115,15 +118,15 @@ function Home() {
                   Sem dados
                 </span>
               </div>
-              <ChecklistDocumentos />
-              <p className="mt-4 font-sans text-[11px] text-faint">
-                Quando houver arquivo disponível, o botão{" "}
-                <span className="text-muted">“Visualizar documento”</span> é exibido ao lado do item.
-              </p>
+              <div className="grid place-items-center rounded-md border border-dashed border-line bg-background/60 px-4 py-10 text-center">
+                <p className="max-w-[32ch] font-sans text-sm text-muted">
+                  Clique em uma cidade na tabela para abrir a página da unidade e visualizar os documentos dentro do Unidade Hub.
+                </p>
+              </div>
             </div>
           </section>
 
-          <section className="flex flex-col rounded-lg border border-line bg-surface lg:col-span-5">
+          <section className="flex flex-col rounded-lg border border-line bg-surface shadow-sm lg:col-span-5">
             <div className="flex items-center justify-between border-b border-line px-5 py-4">
               <h2 className="font-display text-lg font-bold tracking-tight text-foreground">
                 Pendências críticas
@@ -160,7 +163,6 @@ function Home() {
           </section>
         </div>
       </Pagina>
-      <RodapeAcervo />
-    </>
+    </UnidadeHubShell>
   );
 }

@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 
 import { Indicadores } from "@/components/acervo/Indicadores";
-import { CabecalhoInterno, Pagina, RodapeAcervo } from "@/components/acervo/SiteChrome";
+import { Pagina, UnidadeHubShell } from "@/components/acervo/SiteChrome";
 import {
   contagemPorDocumento,
   contagemPorSituacao,
@@ -24,6 +24,8 @@ export const Route = createFileRoute("/dashboard")({
         property: "og:description",
         content: "Indicadores gerais de regularidade documental das unidades.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Dashboard,
@@ -40,11 +42,10 @@ function Dashboard() {
   const cobertura = totalItens === 0 ? 0 : Math.round((situacoes.OK / totalItens) * 100);
 
   return (
-    <>
-      <CabecalhoInterno
+    <UnidadeHubShell
         titulo="Dashboard documental"
         descricao="Indicadores gerais do acervo. Os números são calculados automaticamente a partir das unidades cadastradas."
-      />
+      >
       <Pagina>
         <Indicadores
           itens={[
@@ -68,7 +69,7 @@ function Dashboard() {
         />
 
         <div className="grid grid-cols-1 gap-5 lg:grid-cols-12">
-          <section className="rounded-lg border border-line bg-surface lg:col-span-5">
+          <section className="rounded-lg border border-line bg-surface shadow-sm lg:col-span-5">
             <div className="border-b border-line px-5 py-4">
               <h2 className="font-display text-lg font-bold tracking-tight text-foreground">
                 Situação das unidades
@@ -104,7 +105,7 @@ function Dashboard() {
             </div>
           </section>
 
-          <section className="rounded-lg border border-line bg-surface lg:col-span-7">
+          <section className="rounded-lg border border-line bg-surface shadow-sm lg:col-span-7">
             <div className="border-b border-line px-5 py-4">
               <h2 className="font-display text-lg font-bold tracking-tight text-foreground">
                 Cobertura por documento
@@ -150,7 +151,6 @@ function Dashboard() {
           </section>
         </div>
       </Pagina>
-      <RodapeAcervo />
-    </>
+    </UnidadeHubShell>
   );
 }
