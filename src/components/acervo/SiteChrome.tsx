@@ -3,7 +3,6 @@ import { AlertTriangle, BarChart3, Bell, Building2, FileText, Home, Search, Sett
 import type { ReactNode } from "react";
 
 const navItems = [
-  { to: "/", label: "Início", icon: Home },
   { to: "/", label: "Unidades", icon: Building2 },
   { to: "/pendencias", label: "Pendências", icon: AlertTriangle },
   { to: "/dashboard", label: "Relatórios", icon: BarChart3 },
@@ -24,6 +23,15 @@ function Sidebar() {
         </Link>
 
         <nav className="mt-8 space-y-1.5">
+          <Link
+            to="/"
+            className="flex h-11 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted transition-colors hover:bg-sidebar-active/70 hover:text-sidebar-active-foreground"
+            activeOptions={{ exact: true }}
+            activeProps={{ className: "bg-sidebar-active text-sidebar-active-foreground" }}
+          >
+            <Home className="size-4" />
+            Início
+          </Link>
           {navItems.map((item) => {
             const Icon = item.icon;
             return (
@@ -31,7 +39,6 @@ function Sidebar() {
                 key={`${item.label}-${item.to}`}
                 to={item.to}
                 className="flex h-11 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted transition-colors hover:bg-sidebar-active/70 hover:text-sidebar-active-foreground"
-                activeProps={{ className: "bg-sidebar-active text-sidebar-active-foreground" }}
               >
                 <Icon className="size-4" />
                 {item.label}

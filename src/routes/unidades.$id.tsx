@@ -7,7 +7,15 @@ import { Pagina, UnidadeHubShell } from "@/components/acervo/SiteChrome";
 import { LegendaSituacoes, StatusGeralChip } from "@/components/acervo/StatusChip";
 import { progressoDocumentos } from "@/lib/acervo";
 import { obterArquivosDaUnidade } from "@/lib/drive.functions";
+import type { ArquivoDrive } from "@/lib/drive.types";
 import { useAcervo } from "@/lib/useAcervo";
+
+type ResultadoDrive = {
+  pastaEncontrada: boolean;
+  pasta?: { id: string; nome: string } | undefined;
+  arquivos: Record<string, ArquivoDrive>;
+  outrosDocumentos: ArquivoDrive[];
+};
 
 export const Route = createFileRoute("/unidades/$id")({
   head: () => ({
@@ -37,13 +45,17 @@ function DetalheUnidade() {
   const progresso = unidade ? progressoDocumentos(unidade) : null;
 
   const buscarArquivos = useServerFn(obterArquivosDaUnidade);
-  const drive = useQuery({
+  const drive = useQuery<ResultadoDrive>({
     queryKey: ["drive", unidade?.nome, unidade?.uf],
     enabled: Boolean(unidade),
     staleTime: 0,
     queryFn: () => {
       if (!unidade) {
-        return Promise.resolve({ pastaEncontrada: false, arquivos: {}, outrosDocumentos: [] });
+        return Promise.resolve({
+          pastaEncontrada: false,
+          arquivos: {} as Record<string, ArquivoDrive>,
+          outrosDocumentos: [] as ArquivoDrive[],
+        });
       }
       return buscarArquivos({ data: { nome: unidade.nome, uf: unidade.uf } });
     },
