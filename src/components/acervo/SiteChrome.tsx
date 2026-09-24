@@ -3,7 +3,6 @@ import { AlertTriangle, BarChart3, Bell, Building2, FileText, Home, Search, Sett
 import type { ReactNode } from "react";
 
 const navItems = [
-  { to: "/", label: "Início", icon: Home },
   { to: "/", label: "Unidades", icon: Building2 },
   { to: "/pendencias", label: "Pendências", icon: AlertTriangle },
   { to: "/dashboard", label: "Relatórios", icon: BarChart3 },
@@ -23,26 +22,34 @@ function Sidebar() {
           </span>
         </Link>
 
-        <nav className="mt-8 space-y-1.5">
+        <nav className="mt-5 flex gap-1.5 overflow-x-auto lg:mt-8 lg:block lg:space-y-1.5">
+          <Link
+            to="/"
+            className="flex h-11 shrink-0 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted transition-colors hover:bg-sidebar-active/70 hover:text-sidebar-active-foreground lg:w-full"
+            activeOptions={{ exact: true }}
+            activeProps={{ className: "bg-sidebar-active text-sidebar-active-foreground" }}
+          >
+            <Home className="size-4" />
+            Início
+          </Link>
           {navItems.map((item) => {
             const Icon = item.icon;
             return (
               <Link
                 key={`${item.label}-${item.to}`}
                 to={item.to}
-                className="flex h-11 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted transition-colors hover:bg-sidebar-active/70 hover:text-sidebar-active-foreground"
-                activeProps={{ className: "bg-sidebar-active text-sidebar-active-foreground" }}
+                className="flex h-11 shrink-0 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted transition-colors hover:bg-sidebar-active/70 hover:text-sidebar-active-foreground lg:w-full"
               >
                 <Icon className="size-4" />
                 {item.label}
               </Link>
             );
           })}
-          <div className="flex h-11 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted">
+          <div className="flex h-11 shrink-0 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted lg:w-full">
             <FileText className="size-4" />
             Documentos
           </div>
-          <div className="flex h-11 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted">
+          <div className="flex h-11 shrink-0 items-center gap-3 rounded-md px-3 font-sans text-sm font-medium text-sidebar-muted lg:w-full">
             <Settings className="size-4" />
             Configurações
           </div>

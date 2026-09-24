@@ -190,7 +190,10 @@ export function DocumentosDaUnidade({
                   {selecionado.nomeArquivo}
                 </DialogDescription>
               </DialogHeader>
-              <div className="min-h-0 flex-1 bg-background">
+              <div className="border-b border-line bg-secondary px-5 py-2 font-sans text-xs text-secondary-foreground">
+                A prévia usa a permissão atual do Google Drive. Se necessário, entre na conta Google que possui acesso ao arquivo.
+              </div>
+              <div className="min-h-0 flex-1 bg-surface">
                 <iframe
                   src={selecionado.visualizacaoUrl}
                   title={`Visualização de ${selecionado.nomeArquivo}`}

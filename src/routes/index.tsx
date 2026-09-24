@@ -139,7 +139,9 @@ function Home() {
               <div className="grid place-items-center rounded-md border border-dashed border-line px-4 py-10 text-center">
                 <span className="mb-3 size-2 rounded-full bg-critical/40" />
                 <p className="max-w-[26ch] text-balance font-sans text-sm text-muted">
-                  Nenhuma pendência crítica registrada.
+                  {pendenciasCriticas.length === 0
+                    ? "Nenhuma pendência crítica registrada."
+                    : `${pendenciasCriticas.length} pendências críticas registradas.`}
                 </p>
                 <p className="mt-1.5 max-w-[30ch] font-sans text-xs text-faint">
                   Unidade · UF · documento · motivo · impacto
