@@ -81,7 +81,7 @@ async function listarPastasDeUnidades() {
       includeItemsFromAllDrives: "true",
       supportsAllDrives: "true",
     };
-    if (pageToken) params.pageToken = pageToken;
+    if (pageToken) params["pageToken"] = pageToken;
     const data = (await driveGet("/files", params)) as { files?: DriveFile[]; nextPageToken?: string };
     pastas.push(...(data.files ?? []));
     pageToken = data.nextPageToken ?? "";
