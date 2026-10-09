@@ -43,7 +43,7 @@ export function pontuarPasta(nome: string, uf: string, pasta: string) {
   const palavrasPasta = normalizar(pasta).split(" ");
   const ufs = palavrasPasta.filter((p) => UFS.has(p));
   const ufAlvo = normalizar(uf);
-  if (ufs.length > 0 && !ufs.includes(ufAlvo)) return 0;
+  
   const cidadePasta = palavrasPasta.filter((p) => !UFS.has(p) && !IGNORAR.has(p));
   const cidade = normalizar(nome)
     .split(" ")
@@ -60,7 +60,8 @@ export function pontuarPasta(nome: string, uf: string, pasta: string) {
           0,
         ) / palavras.length;
   const base = Math.max(total, porPalavra);
-  return ufs.includes(ufAlvo) ? base : base * 0.95;
+  if (ufs.length === 0) return base * 0.95;
+  return ufs.includes(ufAlvo) ? base : base * 0.8;
 }
 
 /** Melhor pasta para a unidade, ou null se nenhuma for parecida o bastante. */
@@ -74,5 +75,5 @@ export function escolherPasta<T extends PastaDrive>(nome: string, uf: string, pa
       melhorNota = nota;
     }
   }
-  return melhorNota >= 0.75 ? melhor : null;
+  return melhorNota >= 0.7 ? melhor : null;
 }
