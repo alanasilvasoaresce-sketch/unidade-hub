@@ -4,6 +4,7 @@
  * arquivo no próprio Drive.
  */
 import type { DocumentoId } from "@/lib/acervo";
+import { escolherPasta } from "@/lib/drive.match";
 import type { ArquivoDrive } from "@/lib/drive.types";
 
 const GATEWAY = "https://connector-gateway.lovable.dev/google_drive/drive/v3";
@@ -61,25 +62,36 @@ function escaparQuery(valor: string) {
   return valor.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
 }
 
-/** Encontra a pasta da unidade pelo nome (ex.: "Abaetetuba_PA" para Abaetetuba/PA). */
+/** Lista todas as pastas de unidades (subpastas de "ACERVO DAS UNIDADES"), paginando. */
+async function listarPastasDeUnidades() {
+  const raizes = await listar(
+    "mimeType='application/vnd.google-apps.folder' and trashed=false and name='ACERVO DAS UNIDADES'",
+    10,
+  );
+  const filtroPai = raizes.length
+    ? ` and (${raizes.map((r) => `'${r.id}' in parents`).join(" or ")})`
+    : "";
+  const pastas: DriveFile[] = [];
+  let pageToken = "";
+  do {
+    const params: Record<string, string> = {
+      q: `mimeType='application/vnd.google-apps.folder' and trashed=false${filtroPai}`,
+      fields: "nextPageToken,files(id,name,mimeType)",
+      pageSize: "1000",
+      includeItemsFromAllDrives: "true",
+      supportsAllDrives: "true",
+    };
+    if (pageToken) params["pageToken"] = pageToken;
+    const data = (await driveGet("/files", params)) as { files?: DriveFile[]; nextPageToken?: string };
+    pastas.push(...(data.files ?? []));
+    pageToken = data.nextPageToken ?? "";
+  } while (pageToken);
+  return pastas;
+}
+
+/** Encontra a pasta da unidade, tolerando diferenças de grafia (ex.: "Abatetuba" x "Abaetetuba_PA"). */
 async function encontrarPastaUnidade(nome: string, uf: string) {
-  const alvo = normalizar(nome);
-  const primeiraPalavra = alvo.split(" ")[0] ?? alvo;
-  const pastas = await listar(
-    `mimeType='application/vnd.google-apps.folder' and trashed=false and name contains '${escaparQuery(
-      primeiraPalavra,
-    )}'`,
-  );
-  const candidatos = pastas.filter((pasta) => {
-    const n = normalizar(pasta.name);
-    return n === `${alvo} ${normalizar(uf)}` || n === alvo || n.startsWith(`${alvo} `);
-  });
-  // Preferimos a pasta que também traz a UF no nome.
-  return (
-    candidatos.find((p) => normalizar(p.name) === `${alvo} ${normalizar(uf)}`) ??
-    candidatos[0] ??
-    null
-  );
+  return escolherPasta(nome, uf, await listarPastasDeUnidades());
 }
 
 const palavrasChave: Record<DocumentoId, string[]> = {
